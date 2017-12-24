@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case (1)</name>
+   <name>TC001KomutoSignUp-In-Out</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>dd909411-df35-4301-88a3-eca63fdf23b1</testCaseGuid>
+   <testCaseGuid>79427815-a48c-4e3b-bc2d-d079bdfe0cab</testCaseGuid>
 </TestCaseEntity>

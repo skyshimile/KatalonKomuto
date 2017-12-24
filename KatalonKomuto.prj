@@ -4,5 +4,5 @@
    <name>KatalonKomuto</name>
    <tag></tag>
    <UUID>f8bed705-48dc-4f86-a4c7-5d074625eb79</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
