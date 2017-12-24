@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[count(. | //*[@name = 'passwordRetype']) = count(//*[@name = 'passwordRetype'])][count(. | //*[@placeholder = 'Konfirmasi Password']) = count(//*[@placeholder = 'Konfirmasi Password'])][count(. | //*[@type = 'password']) = count(//*[@type = 'password'])][count(. | id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control has-icons-right&quot;]/input[@class=&quot;input&quot;]) = count(id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control has-icons-right&quot;]/input[@class=&quot;input&quot;])]</value>
+         <value>//input[count(. | //*[@name = 'passwordRetype']) = count(//*[@name = 'passwordRetype'])][count(. | //*[@placeholder = 'Konfirmasi Password']) = count(//*[@placeholder = 'Konfirmasi Password'])][count(. | //*[@type = 'password']) = count(//*[@type = 'password'])][count(. | /html/body/div[1]/div[1]/div/div/div[2]/div/div[2]/section/div/form/div/div[5]/p[1]) = count(/html/body/div[1]/div[1]/div/div/div[2]/div/div[2]/section/div/form/div/div[5]/p[1])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -66,6 +66,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control has-icons-right&quot;]/input[@class=&quot;input&quot;]</value>
+      <value>/html/body/div[1]/div[1]/div/div/div[2]/div/div[2]/section/div/form/div/div[5]/p[1]</value>
    </webElementProperties>
 </WebElementEntity>

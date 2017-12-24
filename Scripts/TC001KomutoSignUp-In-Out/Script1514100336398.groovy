@@ -32,8 +32,6 @@ WebUI.click(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/a_Daftar'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/input_nama'))
-
 WebUI.setText(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/input_nama'), 'Tester Skyshi')
 
 WebUI.setText(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/input_handphone'), '081393121317')
@@ -44,7 +42,7 @@ WebUI.setText(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/input_password')
 
 WebUI.setText(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/input_passwordRetype'), 'katakmati')
 
-WebUI.click(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/label_Pria'))
+WebUI.selectOptionByLabel(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/label_Pria'), 'pria', false)
 
 WebUI.click(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/button_Daftar'))
 

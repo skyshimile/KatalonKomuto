@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[count(. | //*[text() = 'Pria']) = count(//*[text() = 'Pria'])][count(. | id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control&quot;]/label[@class=&quot;radio&quot;]) = count(id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control&quot;]/label[@class=&quot;radio&quot;])]</value>
+         <value>//label[count(. | //*[@class = 'radio  ']) = count(//*[@class = 'radio  '])][count(. | //*[text() = 'Pria']) = count(//*[text() = 'Pria'])][count(. | id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control&quot;]/label[@class=&quot;radio&quot;]) = count(id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control&quot;]/label[@class=&quot;radio&quot;])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
