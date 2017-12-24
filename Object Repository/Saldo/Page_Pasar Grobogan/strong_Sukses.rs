@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Sukses</name>
+   <tag></tag>
+   <elementGuidId>11e10e23-1024-4598-9922-d58c0e51511b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-green</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sukses</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main main no-padding-bottom bg-white saldo&quot;]/div[2]/section[@class=&quot;section is-paddingless undefined&quot;]/ul[@class=&quot;status-saldo-list&quot;]/li[1]/div[@class=&quot;columns is-mobile is-multiline no-margin-bottom&quot;]/div[@class=&quot;column&quot;]/div[@class=&quot;has-text-right&quot;]/strong[@class=&quot;text-green&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -58,3 +58,41 @@ WebUI.click(findTestObject('SignUp-in-Out/Page_Pasar Grobogan/li_1'))
 
 WebUI.closeBrowser()
 
+WebUI.openBrowser('')
+
+WebUI.setText(findTestObject('Biodata/Page_Pasar Grobogan/input_email'), 'emile@skyshi.io')
+
+WebUI.setText(findTestObject('Biodata/Page_Pasar Grobogan/input_password'), 'katakmati')
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/button_Masuk'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/strong_Emileskyshi.io'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/li'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/a_Ganti Foto Profil'))
+
+WebUI.setText(findTestObject('Biodata/Page_Pasar Grobogan/input_name'), 'emile@skyshi.io')
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/label_Wanita'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/label_Pria'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/span_Aceh'))
+
+WebUI.setText(findTestObject('Biodata/Page_Pasar Grobogan/input_input is-medium'), 'denpasar')
+
+WebUI.sendKeys(findTestObject('Biodata/Page_Pasar Grobogan/input_input is-medium'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/li_Kota Denpasar'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/a_Simpan Perubahan'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/li_1'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/span_icon-arrow-left'))
+
+WebUI.click(findTestObject('Biodata/Page_Pasar Grobogan/li'))
+
+WebUI.closeBrowser()
+
